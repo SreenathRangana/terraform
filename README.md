@@ -10,34 +10,7 @@ Module 4 - ECS
 
 A dev env which calls all these modules to deploy this infra properly.
 
-``` 
-
-
-
-.
-├── main.tf              # Root configuration
-├── variables.tf         # Root variables
-├── terraform.tfvars     # Root variables values
-├── modules/             # Folder containing all modules
-│   ├── vpc/             # VPC module
-│   │   ├── main.tf      # VPC module resources
-│   │   ├── variables.tf # VPC module variables
-│   │   └── outputs.tf   # VPC module outputs
-│   ├── ecr/             # ECR module
-│   │   ├── main.tf      # ECR module resources
-│   │   ├── variables.tf # ECR module variables
-│   │   └── outputs.tf   # ECR module outputs
-│   ├── alb/             # ALB module
-│   │   ├── main.tf      # ALB module resources
-│   │   ├── variables.tf # ALB module variables
-│   │   └── outputs.tf   # ALB module outputs
-│   └── ecs/             # ECS module
-│       ├── main.tf      # ECS module resources
-│       ├── variables.tf # ECS module variables
-│       └── outputs.tf   # ECS module outputs
-└── outputs.tf           # Root outputs
-
-
+```
 
 Here’s a **step-by-step guide** for the **Terraform-based AWS Infrastructure** in the form of a `README.md` file. This will help you understand the structure and the steps involved in deploying the infrastructure.
 
